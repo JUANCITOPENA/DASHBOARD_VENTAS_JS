@@ -1,0 +1,199 @@
+body {
+    background-color: #343a40;
+    color: white;
+    width: 98%;
+}
+
+.card {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    height: 150px;
+    /* Altura uniforme */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 40vh;
+    width: 100%;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding-top: 20px;
+    overflow-y: auto;
+    margin-left: 1%;
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .filter-item {
+    margin-bottom: 15px;
+}
+
+.content {
+    margin-left: 250px;
+    /* Same as the width of the sidebar */
+    padding: 50px;
+}
+
+.navbar {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee {
+    display: flex;
+    align-items: center;
+    animation: marquee 10s linear infinite, heartbeat 1s infinite;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.navbar-brand, .author-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: yellow;
+    font-size: 32px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: auto;
+        padding: 20px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .accordion {
+        margin-top: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .author-name {
+        font-size: 16px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+    }
+
+    .profile-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .marquee {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-brand, .author-name, .social-icons {
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.marquee-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee-animation 20s linear infinite;
+}
+
+.marquee-content .card {
+    margin: 0 10px;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+}
+
+@keyframes marquee-animation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
