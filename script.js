@@ -263,7 +263,8 @@ function updateDashboard(data) {
         }
     });
 
-   
+
+    
 // Gráfico de Ventas por Año (nuevo gráfico)
 const ctx6 = document.getElementById('ventasAnoChart').getContext('2d');
 if (ventasAnoChart) {
@@ -308,7 +309,13 @@ ventasAnoChart = new Chart(ctx6, {
     }
 });
 
+
+
 }
+
+
+
+
 
 // Cargar datos JSON
 $.getJSON('https://raw.githubusercontent.com/JUANCITOPENA/RECURSOS-DE-BASE-DE-DATOS-Y-DATOS-CURSOS-SQL-SERVER-Y-ANALISIS-DE-DATOS/refs/heads/main/ventas_tecnologia.json', function (data) {
