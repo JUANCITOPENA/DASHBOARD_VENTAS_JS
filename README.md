@@ -23,6 +23,10 @@ A través de este proyecto, los participantes no solo aprenderán tecnologías e
 
 ![Portada 2](Screenshot_170.png)
 
+🌐 Prueba el proyecto aquí:
+
+👉 Dashboard de Ventas: https://juancitopena.github.io/DASHBOARD_VENTAS_JS/
+
 
 ## 📋 Índice
 
