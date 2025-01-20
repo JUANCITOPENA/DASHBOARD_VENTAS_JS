@@ -263,31 +263,51 @@ function updateDashboard(data) {
         }
     });
 
-    // Gráfico de Ventas por Año (nuevo gráfico)
-    const ctx6 = document.getElementById('ventasAnoChart').getContext('2d');
-    if (ventasAnoChart) {
-        ventasAnoChart.destroy();
-    }
-    ventasAnoChart = new Chart(ctx6, {
-        type: 'bar',
-        data: {
-            labels: Object.keys(ventasPorAno),
-            datasets: [{
-                label: 'Ventas por Año',
-                data: Object.values(ventasPorAno),
-                backgroundColor: 'rgba(153,102,255,.7)',
-                borderColor: 'rgba(153,102,255,.9)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true,
-                }
+   
+// Gráfico de Ventas por Año (nuevo gráfico)
+const ctx6 = document.getElementById('ventasAnoChart').getContext('2d');
+if (ventasAnoChart) {
+    ventasAnoChart.destroy();
+}
+
+// Colores para cada barra
+const backgroundColors = [
+    'rgba(153, 102, 255, 0.7)',
+    'rgba(54, 162, 235, 0.7)',
+    'rgba(255, 206, 86, 0.7)',
+    'rgba(75, 192, 192, 0.7)',
+    'rgba(255, 159, 64, 0.7)'
+];
+
+const borderColors = [
+    'rgba(153, 102, 255, 0.9)',
+    'rgba(54, 162, 235, 0.9)',
+    'rgba(255, 206, 86, 0.9)',
+    'rgba(75, 192, 192, 0.9)',
+    'rgba(255, 159, 64, 0.9)'
+];
+
+ventasAnoChart = new Chart(ctx6, {
+    type: 'bar',
+    data: {
+        labels: Object.keys(ventasPorAno),
+        datasets: [{
+            label: 'Ventas por Año',
+            data: Object.values(ventasPorAno),
+            backgroundColor: backgroundColors,
+            borderColor: borderColors,
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true,
             }
         }
-    });
+    }
+});
+
 }
 
 // Cargar datos JSON
