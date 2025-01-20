@@ -22,6 +22,11 @@ A través de este proyecto, los participantes no solo aprenderán tecnologías e
 - [Tecnologías y Recursos](#tecnologías-y-recursos)
 - [Contribución Académica](#contribución-académica)
 - [Comunidad y Soporte](#comunidad-y-soporte)
+- [Clonar el Repositorio](#clonar-el-repositorio)
+- [Dar Feedback](#dar-feedback)
+- [Mejoras y Sugerencias](#mejoras-y-sugerencias)
+- [Compartir el Proyecto](#compartir-el-proyecto)
+- [Dar Estrellitas](#dar-estrellitas)
 
 ## 🎓 Visión Educativa
 
@@ -123,6 +128,41 @@ Este proyecto nace de la necesidad de proporcionar a estudiantes y profesionales
 - **YouTube**: [Canal Educativo](https://www.youtube.com/channel/UCSob-3E5z4IHtMF5B4bN-FA)
 - **GitHub**: [Repositorio](https://github.com/JUANCITOPENA)
 - **Foro de Estudiantes**: [Próximamente]
+
+## 📦 Clonar el Repositorio
+
+Para clonar este repositorio, sigue estos pasos:
+
+1. Abre tu terminal o línea de comandos.
+2. Navega hasta el directorio donde deseas clonar el repositorio.
+3. Ejecuta el siguiente comando:
+
+```bash
+git clone https://github.com/JUANCITOPENA/dashboard-de-ventas.git
+
+## 🗣️ Dar Feedback
+
+¡Nos encantaría recibir tu feedback! Si tienes sugerencias, comentarios o encuentras algún problema, por favor contáctanos a través de:
+
+* **Issues en GitHub**: [Repositorio](https://github.com/JUANCITOPENA)
+* **Correo Electrónico**: juancito.pena@example.com
+
+## 🛠️ Mejoras y Sugerencias
+
+Si tienes ideas para mejorar este proyecto, no dudes en compartirlas. Puedes:
+* Abrir un issue en GitHub
+* Enviarnos un correo electrónico con tus sugerencias
+
+## 📢 Compartir el Proyecto
+
+Si encuentras este proyecto útil, ¡compártelo con otros! Puedes hacerlo a través de:
+* Redes sociales
+* Foros de desarrollo
+* Recomendándolo a amigos y colegas
+
+## ⭐ Dar Estrellitas
+
+Si te gusta este proyecto, no olvides darle una estrella en GitHub. ¡Tu apoyo nos motiva a seguir mejorando!
 
 ## 📜 Licencia y Uso Educativo
 
