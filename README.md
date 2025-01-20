@@ -19,6 +19,11 @@ Este dashboard no es solo una herramienta de visualización; es un proyecto comp
 
 A través de este proyecto, los participantes no solo aprenderán tecnologías esenciales, sino que también desarrollarán habilidades críticas en análisis de datos, programación y diseño de interfaces. Este README te guiará a través de todas las características, recursos y oportunidades de aprendizaje que ofrece esta plataforma.
 
+![Portada 1](Screenshot_169.png)
+
+![Portada 2](Screenshot_170.png)
+
+
 ## 📋 Índice
 
 - [Visión Educativa](#visión-educativa)
