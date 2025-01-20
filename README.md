@@ -153,7 +153,7 @@ cd dashboard-de-ventas
 
 # Abrir en el navegador
 open index.html
-
+```
 🤝 Contribución
 
 Fork del repositorio
