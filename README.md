@@ -145,7 +145,22 @@ Para clonar este repositorio, sigue estos pasos:
 3. Ejecuta el siguiente comando:
 
 ```bash
+# Clonar el repositorio
 git clone https://github.com/JUANCITOPENA/dashboard-de-ventas.git
+
+# Acceder al directorio
+cd dashboard-de-ventas
+
+# Abrir en el navegador
+open index.html
+
+🤝 Contribución
+
+Fork del repositorio
+Crear rama para feature (git checkout -b feature/NuevaCaracteristica)
+Commit de cambios (git commit -m 'Añadir nueva característica')
+Push a la rama (git push origin feature/NuevaCaracteristica)
+Crear Pull Request
 
 ## 🗣️ Dar Feedback
 
