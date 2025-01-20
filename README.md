@@ -154,13 +154,16 @@ cd dashboard-de-ventas
 # Abrir en el navegador
 open index.html
 ```
+
 🤝 Contribución
 
+```bash
 Fork del repositorio
 Crear rama para feature (git checkout -b feature/NuevaCaracteristica)
 Commit de cambios (git commit -m 'Añadir nueva característica')
 Push a la rama (git push origin feature/NuevaCaracteristica)
 Crear Pull Request
+```
 
 ## 🗣️ Dar Feedback
 
