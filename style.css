@@ -1,199 +1,216 @@
+/* Estilos para el cuerpo de la página */
 body {
-    background-color: #343a40;
-    color: white;
-    width: 98%;
+    background-color: #343a40; /* Color de fondo */
+    color: white; /* Color del texto */
+    width: 98%; /* Ancho del cuerpo */
 }
 
+/* Estilos para las tarjetas */
 .card {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-    height: 150px;
-    /* Altura uniforme */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Fondo degradado */
+    height: 150px; /* Altura uniforme */
+    display: flex; /* Uso de flexbox */
+    flex-direction: column; /* Dirección de la columna */
+    justify-content: center; /* Centrar contenido verticalmente */
+    align-items: center; /* Centrar contenido horizontalmente */
+    text-align: center; /* Centrar texto */
 }
 
+/* Contenedor de gráficos */
 .chart-container {
-    position: relative;
-    margin: auto;
-    height: 40vh;
-    width: 100%;
+    position: relative; /* Posición relativa */
+    margin: auto; /* Margen automático */
+    height: 40vh; /* Altura del 40% de la ventana */
+    width: 100%; /* Ancho completo */
 }
 
+/* Estilos para la barra lateral */
 .sidebar {
-    height: 100vh;
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #343a40;
-    padding-top: 20px;
-    overflow-y: auto;
-    margin-left: 1%;
+    height: 100vh; /* Altura completa de la ventana */
+    width: 250px; /* Ancho fijo */
+    position: fixed; /* Posición fija */
+    top: 0; /* Alineación superior */
+    left: 0; /* Alineación izquierda */
+    background-color: #343a40; /* Color de fondo */
+    padding-top: 20px; /* Espaciado superior */
+    overflow-y: auto; /* Desplazamiento vertical */
+    margin-left: 1%; /* Margen izquierdo */
 }
 
+/* Título de la barra lateral */
 .sidebar h3 {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px; /* Margen inferior */
 }
 
+/* Elementos de filtro en la barra lateral */
 .sidebar .filter-item {
-    margin-bottom: 15px;
+    margin-bottom: 15px; /* Margen inferior */
 }
 
+/* Contenido principal */
 .content {
-    margin-left: 250px;
-    /* Same as the width of the sidebar */
-    padding: 50px;
+    margin-left: 250px; /* Margen izquierdo (mismo ancho que la barra lateral) */
+    padding: 50px; /* Espaciado interno */
 }
 
+/* Estilos para la barra de navegación */
 .navbar {
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    overflow: hidden; /* Ocultar desbordamiento */
+    white-space: nowrap; /* Evitar saltos de línea */
+    position: relative; /* Posición relativa */
+    height: 100px; /* Altura fija */
+    display: flex; /* Uso de flexbox */
+    align-items: center; /* Centrar contenido verticalmente */
+    justify-content: center; /* Centrar contenido horizontalmente */
 }
 
+/* Estilos para el marquesina */
 .marquee {
-    display: flex;
-    align-items: center;
-    animation: marquee 10s linear infinite, heartbeat 1s infinite;
-    position: absolute;
-    white-space: nowrap;
+    display: flex; /* Uso de flexbox */
+    align-items: center; /* Centrar contenido verticalmente */
+    animation: marquee 10s linear infinite, heartbeat 1s infinite; /* Animaciones */
+    position: absolute; /* Posición absoluta */
+    white-space: nowrap; /* Evitar saltos de línea */
 }
 
+/* Estilos para el nombre de la marca y el autor */
 .navbar-brand, .author-name {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    margin-right: 10px;
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    color: white; /* Color del texto */
+    margin-right: 10px; /* Margen derecho */
 }
 
+/* Estilos para los iconos sociales */
 .social-icons a {
-    color: yellow;
-    font-size: 32px;
-    text-decoration: none;
-    margin-left: 10px;
+    color: yellow; /* Color del texto */
+    font-size: 32px; /* Tamaño de fuente */
+    text-decoration: none; /* Sin decoración de texto */
+    margin-left: 10px; /* Margen izquierdo */
 }
 
+/* Estilos para la imagen de perfil */
 .profile-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
+    width: 50px; /* Ancho */
+    height: 50px; /* Altura */
+    border-radius: 50%; /* Bordes redondeados */
+    margin-right: 10px; /* Margen derecho */
 }
 
+/* Animación de marquesina */
 @keyframes marquee {
     0% {
-        transform: translateX(100%);
+        transform: translateX(100%); /* Mover al 100% del ancho */
     }
     50% {
-        transform: translateX(-100%);
+        transform: translateX(-100%); /* Mover al -100% del ancho */
     }
     100% {
-        transform: translateX(100%);
+        transform: translateX(100%); /* Mover al 100% del ancho */
     }
 }
 
+/* Animación de latido */
 @keyframes heartbeat {
     0%, 100% {
-        transform: scale(1);
+        transform: scale(1); /* Escala normal */
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(1.1); /* Escala aumentada */
     }
 }
 
+/* Estilos para pantallas pequeñas (menos de 768px de ancho) */
 @media (max-width: 768px) {
     .card {
-        height: auto;
-        padding: 20px;
+        height: auto; /* Altura automática */
+        padding: 20px; /* Espaciado interno */
     }
 
     .card-title {
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* Tamaño de fuente */
     }
 
     .card-text {
-        font-size: 1rem;
+        font-size: 1rem; /* Tamaño de fuente */
     }
 
     .content {
-        margin-left: 0;
-        padding: 20px;
+        margin-left: 0; /* Sin margen izquierdo */
+        padding: 20px; /* Espaciado interno */
     }
 
     .accordion {
-        margin-top: 20px;
+        margin-top: 20px; /* Margen superior */
     }
 
     .navbar-brand {
-        font-size: 18px;
+        font-size: 18px; /* Tamaño de fuente */
     }
 
     .author-name {
-        font-size: 16px;
+        font-size: 16px; /* Tamaño de fuente */
     }
 
     .social-icons a {
-        font-size: 24px;
+        font-size: 24px; /* Tamaño de fuente */
     }
 
     .profile-image {
-        width: 40px;
-        height: 40px;
+        width: 40px; /* Ancho */
+        height: 40px; /* Altura */
     }
 
     .marquee {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Dirección de la columna */
+        align-items: center; /* Centrar contenido horizontalmente */
     }
 
     .navbar-brand, .author-name, .social-icons {
-        text-align: center;
-        margin: 5px 0;
+        text-align: center; /* Centrar texto */
+        margin: 5px 0; /* Margen vertical */
     }
 }
 
-/* Footer styles */
+/* Estilos para el pie de página */
 .footer {
-    background-color: #343a40;
-    padding: 20px 0;
-    position: relative;
-    overflow: hidden;
+    background-color: #343a40; /* Color de fondo */
+    padding: 20px 0; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    overflow: hidden; /* Ocultar desbordamiento */
 }
 
+/* Contenedor de marquesina */
 .marquee-container {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
+    position: relative; /* Posición relativa */
+    width: 100%; /* Ancho completo */
+    overflow: hidden; /* Ocultar desbordamiento */
+    white-space: nowrap; /* Evitar saltos de línea */
 }
 
+/* Contenido de marquesina */
 .marquee-content {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee-animation 20s linear infinite;
+    display: inline-block; /* Mostrar en línea */
+    padding-left: 100%; /* Espaciado izquierdo */
+    animation: marquee-animation 20s linear infinite; /* Animación */
 }
 
+/* Estilos para las tarjetas dentro del contenido de marquesina */
 .marquee-content .card {
-    margin: 0 10px;
-    display: inline-block;
-    width: 200px;
-    height: auto;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    margin: 0 10px; /* Margen horizontal */
+    display: inline-block; /* Mostrar en línea */
+    width: 200px; /* Ancho fijo */
+    height: auto; /* Altura automática */
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Fondo degradado */
 }
 
+/* Animación de marquesina */
 @keyframes marquee-animation {
     0% {
-        transform: translateX(0);
+        transform: translateX(0); /* Sin movimiento */
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-100%); /* Mover al -100% del ancho */
     }
 }

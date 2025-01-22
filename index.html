@@ -209,6 +209,7 @@
                 </div>
             </div>
 
+
             <!-- Gráficos -->
             <h2>📊 Gráficos de Ventas</h2>
 
@@ -241,7 +242,6 @@
                         <canvas id="tendenciasVentasChart"></canvas>
                     </div>
                 </div>
-
                 <!-- Gráfico de Ventas por Cliente -->
                 <div class="col-md-6">
                     <h4>👤 Ventas por Cliente</h4>
@@ -249,7 +249,6 @@
                         <canvas id="ventasClienteChart"></canvas> <!-- Nuevo gráfico -->
                     </div>
                 </div>
-
                 <!-- Gráfico de Ventas por Año -->
                 <div class="col-md-6">
                     <h4>📆 Ventas por Año</h4>
@@ -257,105 +256,164 @@
                         <canvas id="ventasAnoChart"></canvas> <!-- Nuevo gráfico -->
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+                <!-- Gráfico de Media de Ventas por Mes -->
+                <div class="col-md-6">
+                    <h4>📊 Media de Ventas por Mes</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="mediaVentasChart"></canvas> <!-- Nuevo gráfico -->
+                    </div>
+                </div>
+                <!-- Gráfico de Mediana de Ventas por Mes -->
+                <div class="col-md-6">
+                    <h4>📊 Mediana de Ventas por Mes</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="medianaVentasChart"></canvas> <!-- Nuevo gráfico -->
+                    </div>
+                </div>
+                <!-- Gráfico de Moda de Ventas por Mes -->
+                <div class="col-md-6">
+                    <h4>📊 Moda de Ventas por Mes</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="modaVentasChart"></canvas> <!-- Nuevo gráfico -->
+                    </div>
+                </div>
+                <!-- Gráfico de Desviación Estándar de Ventas por Mes -->
+                <div class="col-md-6">
+                    <h4>📊 Desviación Estándar de Ventas por Mes</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="desviacionVentasChart"></canvas> <!-- Nuevo gráfico -->
+                    </div>
+                </div>
+                <!-- Diagrama de Pareto por Producto -->
+                <div class="col-md-6">
+                    <h4>🛒 Diagrama de Pareto por Producto</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="paretoProductoChart"></canvas>
+                    </div>
+                </div>
+                <!-- Diagrama de Pareto por Cliente -->
+                <div class="col-md-6">
+                    <h4>👤 Diagrama de Pareto por Cliente</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="paretoClienteChart"></canvas>
+                    </div>
+                </div>
+                <!-- Diagrama de Pareto por Vendedor -->
+                <div class="col-md-6">
+                    <h4>📊 Diagrama de Pareto por Vendedor</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="paretoVendedorChart"></canvas>
+                    </div>
+                </div>
 
-    <footer class="footer">
-        <div class="marquee-container">
-            <div class="marquee-content">
-                <!-- Total General -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-chart-bar"></i> Total General
-                        </h5>
-                        <p id="footerTotalGeneral" class="card-text">Cargando...</p>
+                <!-- Diagrama de Pareto por Localidad -->
+                <div class="col-md-6">
+                    <h4>📍 Diagrama de Pareto por Localidad</h4>
+                    <div class="chart-container mb-4">
+                        <canvas id="paretoLocalidadChart"></canvas>
                     </div>
                 </div>
-                <!-- Costo -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-dollar-sign"></i> Costo
-                        </h5>
-                        <p id="footerCosto" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-                <!-- Margen -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-coins"></i> Margen
-                        </h5>
-                        <p id="footerMargen" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-                <!-- % Margen Total -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-percentage"></i> % Margen Total
-                        </h5>
-                        <p id="footerPorcentajeMargen" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-                <!-- Ventas 2020 -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-calendar-alt"></i> Ventas 2020
-                        </h5>
-                        <p id="footerVentas2020" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-                <!-- Ventas 2021 -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-calendar-alt"></i> Ventas 2021
-                        </h5>
-                        <p id="footerVentas2021" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-                <!-- Ventas 2022 -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-calendar-alt"></i> Ventas 2022
-                        </h5>
-                        <p id="footerVentas2022" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-                <!-- Ventas 2023 -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-calendar-alt"></i> Ventas 2023
-                        </h5>
-                        <p id="footerVentas2023" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-                <!-- Ventas 2024 -->
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <i class="fas fa-calendar-alt"></i> Ventas 2024
-                        </h5>
-                        <p id="footerVentas2024" class="card-text">Cargando...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
 
-    <!-- Scripts necesarios -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Biblioteca Chart.js -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
-    <script type="module" src="script.js"></script> <!-- Archivo de lógica personalizada -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Bootstrap JS -->
+            </div>
+
+
+            <!-- PIE DE PAGINA FOOTER CARRUSEL ANIMADO. -->
+
+            <footer class="footer">
+                <div class="marquee-container">
+                    <div class="marquee-content">
+                        <!-- Total General -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-chart-bar"></i> Total General
+                                </h5>
+                                <p id="footerTotalGeneral" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- Costo -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-dollar-sign"></i> Costo
+                                </h5>
+                                <p id="footerCosto" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- Margen -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-coins"></i> Margen
+                                </h5>
+                                <p id="footerMargen" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- % Margen Total -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-percentage"></i> % Margen Total
+                                </h5>
+                                <p id="footerPorcentajeMargen" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- Ventas 2020 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-calendar-alt"></i> Ventas 2020
+                                </h5>
+                                <p id="footerVentas2020" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- Ventas 2021 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-calendar-alt"></i> Ventas 2021
+                                </h5>
+                                <p id="footerVentas2021" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- Ventas 2022 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-calendar-alt"></i> Ventas 2022
+                                </h5>
+                                <p id="footerVentas2022" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- Ventas 2023 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-calendar-alt"></i> Ventas 2023
+                                </h5>
+                                <p id="footerVentas2023" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                        <!-- Ventas 2024 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="fas fa-calendar-alt"></i> Ventas 2024
+                                </h5>
+                                <p id="footerVentas2024" class="card-text">Cargando...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+            <!-- Scripts necesarios -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Biblioteca Chart.js -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+            <script type="module" src="script.js"></script> <!-- Archivo de lógica personalizada -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Bootstrap JS -->
 
 </body>
 
