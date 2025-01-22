@@ -26,7 +26,10 @@
 22. [Dar Estrellitas](#dar-estrellitas)
 23. [Licencia y Uso Educativo](#licencia-y-uso-educativo)
 24. [Nota del Docente](#nota-del-docente)
-    
+
+
+# introducción
+
 👋 ¡Hola a todos!
 
 🎉 Bienvenidos a este repositorio en GitHub. En esta ocasión, les presento un proyecto que trata sobre el uso de tecnologías de programación web como HTML, CSS, Bootstrap, y JavaScript 🖥️, junto con la librería de gráficos dinámicos Chart.js 📊. Además, utiliza una base de datos en formato JSON con una estructura tipo factura que detalla información sobre clientes, vendedores, fechas, localidades, entre otros datos relevantes.
