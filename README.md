@@ -244,7 +244,7 @@ git push origin feature/NuevaCaracteristica
 ¡Nos encantaría recibir tu feedback! Si tienes sugerencias, comentarios o encuentras algún problema, por favor contáctanos a través de:
 
 * **Issues en GitHub**: [Repositorio](https://github.com/JUANCITOPENA)
-* **Correo Electrónico**: juancito.pena@example.com
+* **Correo Electrónico**: juancito.pena@gmail.com
 
 ## 🛠️ Mejoras y Sugerencias
 
