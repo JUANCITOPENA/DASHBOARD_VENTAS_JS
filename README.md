@@ -1,5 +1,32 @@
  # 📊 Dashboard de Ventas: Proyecto Educativo y Profesional
 
+## Índice
+
+1. [Introducción](#introducción)
+2. [Repositorio de la Base de Datos JSON](#repositorio-de-la-base-de-datos-json)
+3. [Objetivo del Proyecto](#objetivo-del-proyecto)
+4. [Gráficos y Visualizaciones](#gráficos-y-visualizaciones)
+5. [Filtros](#filtros)
+6. [Medidas y KPIs](#medidas-y-kpis)
+7. [Tecnologías Utilizadas](#tecnologías-utilizadas)
+8. [Estructura del Proyecto](#estructura-del-proyecto)
+9. [Instalación y Uso](#instalación-y-uso)
+10. [Visión Educativa](#visión-educativa)
+11. [Beneficios Académicos](#beneficios-académicos)
+12. [Características Educativas](#características-educativas)
+13. [Casos de Estudio](#casos-de-estudio)
+14. [Ruta de Aprendizaje](#ruta-de-aprendizaje)
+15. [Tecnologías y Recursos](#tecnologías-y-recursos)
+16. [Contribución Académica](#contribución-académica)
+17. [Comunidad y Soporte](#comunidad-y-soporte)
+18. [Clonar el Repositorio](#clonar-el-repositorio)
+19. [Dar Feedback](#dar-feedback)
+20. [Mejoras y Sugerencias](#mejoras-y-sugerencias)
+21. [Compartir el Proyecto](#compartir-el-proyecto)
+22. [Dar Estrellitas](#dar-estrellitas)
+23. [Licencia y Uso Educativo](#licencia-y-uso-educativo)
+24. [Nota del Docente](#nota-del-docente)
+    
 👋 ¡Hola a todos!
 
 🎉 Bienvenidos a este repositorio en GitHub. En esta ocasión, les presento un proyecto que trata sobre el uso de tecnologías de programación web como HTML, CSS, Bootstrap, y JavaScript 🖥️, junto con la librería de gráficos dinámicos Chart.js 📊. Además, utiliza una base de datos en formato JSON con una estructura tipo factura que detalla información sobre clientes, vendedores, fechas, localidades, entre otros datos relevantes.
@@ -81,23 +108,6 @@ A través de este proyecto, los participantes no solo aprenderán tecnologías e
 🌐 Prueba el proyecto aquí:
 
 👉 Dashboard de Ventas: https://juancitopena.github.io/DASHBOARD_VENTAS_JS/
-
-
-## 📋 Índice
-
-- [Visión Educativa](#visión-educativa)
-- [Beneficios Académicos](#beneficios-académicos)
-- [Características](#características)
-- [Casos de Estudio](#casos-de-estudio)
-- [Ruta de Aprendizaje](#ruta-de-aprendizaje)
-- [Tecnologías y Recursos](#tecnologías-y-recursos)
-- [Contribución Académica](#contribución-académica)
-- [Comunidad y Soporte](#comunidad-y-soporte)
-- [Clonar el Repositorio](#clonar-el-repositorio)
-- [Dar Feedback](#dar-feedback)
-- [Mejoras y Sugerencias](#mejoras-y-sugerencias)
-- [Compartir el Proyecto](#compartir-el-proyecto)
-- [Dar Estrellitas](#dar-estrellitas)
 
 ## 🎓 Visión Educativa
 
