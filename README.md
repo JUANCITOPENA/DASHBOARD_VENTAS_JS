@@ -2,38 +2,38 @@
 
 ## Índice
 
-1. [Introducción](#introducción)
-2. [Repositorio de la Base de Datos JSON](#repositorio-de-la-base-de-datos-json)
-3. [Objetivo del Proyecto](#objetivo-del-proyecto)
-4. [Gráficos y Visualizaciones](#gráficos-y-visualizaciones)
-5. [Filtros](#filtros)
-6. [Medidas y KPIs](#medidas-y-kpis)
-7. [Tecnologías Utilizadas](#tecnologías-utilizadas)
-8. [Estructura del Proyecto](#estructura-del-proyecto)
-9. [Instalación y Uso](#instalación-y-uso)
-10. [Visión Educativa](#visión-educativa)
-11. [Beneficios Académicos](#beneficios-académicos)
-12. [Características Educativas](#características-educativas)
-13. [Casos de Estudio](#casos-de-estudio)
-14. [Ruta de Aprendizaje](#ruta-de-aprendizaje)
-15. [Tecnologías y Recursos](#tecnologías-y-recursos)
-16. [Contribución Académica](#contribución-académica)
-17. [Comunidad y Soporte](#comunidad-y-soporte)
-18. [Clonar el Repositorio](#clonar-el-repositorio)
-19. [Dar Feedback](#dar-feedback)
-20. [Mejoras y Sugerencias](#mejoras-y-sugerencias)
-21. [Compartir el Proyecto](#compartir-el-proyecto)
-22. [Dar Estrellitas](#dar-estrellitas)
-23. [Licencia y Uso Educativo](#licencia-y-uso-educativo)
-24. [Nota del Docente](#nota-del-docente)
+1. [Introducción](#introducción-)
+2. [Repositorio de la Base de Datos JSON](#repositorio-)
+3. [Gráficos y Visualizaciones](#-gráficos-y-visualizaciones)
+4. [Filtros](#-filtros)
+5. [Medidas y KPIs](#-medidas-y-kpis)
+6. [Tecnologías Utilizadas](#️-tecnologías-utilizadas)
+7. [Estructura del Proyecto](#-estructura-del-proyecto)
+8. [Visión Educativa](#-visión-educativa)
+9. [Beneficios Académicos](#-beneficios-académicos)
+10. [Características Educativas](#-características-educativas)
+11. [Casos de Estudio](#-casos-de-estudio)
+12. [Ruta de Aprendizaje](#-ruta-de-aprendizaje)
+13. [Tecnologías y Recursos](#-tecnologías-y-recursos)
+14. [Contribución Académica](#-contribución-académica)
+15. [Comunidad y Soporte](#-comunidad-y-soporte)
+16. [Clonar el Repositorio](#-clonar-el-repositorio)
+17. [Dar Feedback](#️-dar-feedback)
+18. [Mejoras y Sugerencias](#️-mejoras-y-sugerencias)
+19. [Compartir el Proyecto](#-compartir-el-proyecto)
+20. [Dar Estrellitas](#-dar-estrellitas)
+21. [Licencia y Uso Educativo](#-licencia-y-uso-educativo)
+22. [Nota del Docente](#-nota-del-docente)
 
-## Introducción 🌟 
+## Introducción 🌟
 
 👋 ¡Hola a todos!
 
 🎉 Bienvenidos a este repositorio en GitHub. En esta ocasión, les presento un proyecto que trata sobre el uso de tecnologías de programación web como HTML, CSS, Bootstrap, y JavaScript 🖥️, junto con la librería de gráficos dinámicos Chart.js 📊. Además, utiliza una base de datos en formato JSON con una estructura tipo factura que detalla información sobre clientes, vendedores, fechas, localidades, entre otros datos relevantes.
 
-## Repositoio: 📂 El Repositorio de la Base de Datos JSON lo puedes encontrar [aquí](https://raw.githubusercontent.com/JUANCITOPENA/RECURSOS-DE-BASE-DE-DATOS-Y-DATOS-CURSOS-SQL-SERVER-Y-ANALISIS-DE-DATOS/refs/heads/main/ventas_tecnologia.json) 🔗
+## Repositorio 📂
+
+El Repositorio de la Base de Datos JSON lo puedes encontrar [aquí](https://raw.githubusercontent.com/JUANCITOPENA/RECURSOS-DE-BASE-DE-DATOS-Y-DATOS-CURSOS-SQL-SERVER-Y-ANALISIS-DE-DATOS/refs/heads/main/ventas_tecnologia.json) 🔗
 
 ✨ Este proyecto tiene como objetivo mostrar cómo, incluso con tecnologías web básicas, podemos crear un dashboard de ventas que incluye algunos resúmenes KPI, análisis dinámico, y gráficos interactivos que cambian según los filtros aplicados. También destaca la importancia del diseño UI/UX 🎨, así como el uso de contrastes adaptados a la marca y las necesidades del proyecto.
 
@@ -46,60 +46,58 @@ Este dashboard no es solo una herramienta de visualización; es un proyecto comp
 - Ofrece una experiencia práctica con datos y escenarios del mundo real
 - Proporciona una base sólida para el aprendizaje y desarrollo profesional
 
-A través de este proyecto, los participantes no solo aprenderán tecnologías esenciales, sino que también desarrollarán habilidades críticas en análisis de datos, programación y diseño de interfaces. Este README te guiará a través de todas las características, recursos y oportunidades de aprendizaje que ofrece esta plataforma.
-
 ## 📊 Gráficos y Visualizaciones
 
 - ✅ **🛒 Ventas por Producto**: Este gráfico muestra las ventas totales por producto, permitiendo a los usuarios identificar cuáles productos están generando más ingresos.
 - ✅ **📊 Unidades Vendidas por Vendedor**: Este gráfico presenta las unidades vendidas por cada vendedor, ayudando a evaluar el rendimiento individual de los vendedores.
 - ✅ **📍 Ventas por Localidad**: Este gráfico muestra las ventas totales por localidad, proporcionando una visión geográfica del rendimiento de las ventas.
-- ✅ **📈 Tendencias de Ventas (Últimos 6 meses)**: Este gráfico de línea muestra las tendencias de ventas durante los últimos seis meses, permitiendo a los usuarios identificar patrones y tendencias a lo largo del tiempo.
+- ✅ **📈 Tendencias de Ventas (Últimos 6 meses)**: Este gráfico de línea muestra las tendencias de ventas durante los últimos seis meses.
 - ✅ **👤 Ventas por Cliente**: Este gráfico muestra las ventas totales por cliente, ayudando a identificar a los clientes más valiosos.
 - ✅ **📆 Ventas por Año**: Este gráfico muestra las ventas totales por año, proporcionando una visión a largo plazo del rendimiento de las ventas.
-- ✅ **📊 Media de Ventas por Mes**: Este gráfico muestra la media de ventas por mes, ayudando a identificar meses con un rendimiento promedio alto o bajo.
-- ✅ **📊 Mediana de Ventas por Mes**: Este gráfico muestra la mediana de ventas por mes, proporcionando una medida central de las ventas mensuales.
-- ✅ **📊 Moda de Ventas por Mes**: Este gráfico muestra la moda de ventas por mes, identificando el valor de ventas más frecuente en cada mes.
-- ✅ **📊 Desviación Estándar de Ventas por Mes**: Este gráfico muestra la desviación estándar de ventas por mes, proporcionando una medida de la variabilidad de las ventas mensuales.
-- ✅ **🛒 Diagrama de Pareto por Producto**: Este gráfico de Pareto muestra la distribución de ventas por producto, ayudando a identificar los productos que contribuyen más a las ventas totales.
-- ✅ **👤 Diagrama de Pareto por Cliente**: Este gráfico de Pareto muestra la distribución de ventas por cliente, ayudando a identificar los clientes que contribuyen más a las ventas totales.
-- ✅ **📊 Diagrama de Pareto por Vendedor**: Este gráfico de Pareto muestra la distribución de ventas por vendedor, ayudando a identificar los vendedores que contribuyen más a las ventas totales.
-- ✅ **📍 Diagrama de Pareto por Localidad**: Este gráfico de Pareto muestra la distribución de ventas por localidad, ayudando a identificar las localidades que contribuyen más a las ventas totales.
+- ✅ **📊 Media de Ventas por Mes**: Este gráfico muestra la media de ventas por mes.
+- ✅ **📊 Mediana de Ventas por Mes**: Este gráfico muestra la mediana de ventas por mes.
+- ✅ **📊 Moda de Ventas por Mes**: Este gráfico muestra la moda de ventas por mes.
+- ✅ **📊 Desviación Estándar de Ventas por Mes**: Este gráfico muestra la desviación estándar de ventas por mes.
+- ✅ **🛒 Diagrama de Pareto por Producto**: Este gráfico de Pareto muestra la distribución de ventas por producto.
+- ✅ **👤 Diagrama de Pareto por Cliente**: Este gráfico de Pareto muestra la distribución de ventas por cliente.
+- ✅ **📊 Diagrama de Pareto por Vendedor**: Este gráfico de Pareto muestra la distribución de ventas por vendedor.
+- ✅ **📍 Diagrama de Pareto por Localidad**: Este gráfico de Pareto muestra la distribución de ventas por localidad.
 
 ## 🔍 Filtros
 
-- ✅ **Filtro por Factura**: Permite a los usuarios filtrar los datos por número de factura, ayudando a enfocarse en ventas específicas.
-- ✅ **Filtro por Producto**: Permite a los usuarios filtrar los datos por producto, ayudando a analizar el rendimiento de productos específicos.
-- ✅ **Filtro por Cliente**: Permite a los usuarios filtrar los datos por cliente, ayudando a analizar el comportamiento de compra de clientes específicos.
-- ✅ **Filtro por Vendedor**: Permite a los usuarios filtrar los datos por vendedor, ayudando a evaluar el rendimiento de vendedores específicos.
-- ✅ **Filtro por Localidad**: Permite a los usuarios filtrar los datos por localidad, ayudando a analizar el rendimiento de ventas en localidades específicas.
+- ✅ **Filtro por Factura**: Permite filtrar los datos por número de factura.
+- ✅ **Filtro por Producto**: Permite filtrar los datos por producto.
+- ✅ **Filtro por Cliente**: Permite filtrar los datos por cliente.
+- ✅ **Filtro por Vendedor**: Permite filtrar los datos por vendedor.
+- ✅ **Filtro por Localidad**: Permite filtrar los datos por localidad.
 
 ## 📈 Medidas y KPIs
 
-- ✅ **Total de Clientes**: Muestra el número total de clientes únicos en el conjunto de datos.
-- ✅ **Total de Vendedores**: Muestra el número total de vendedores únicos en el conjunto de datos.
-- ✅ **Total de Productos**: Muestra el número total de productos únicos en el conjunto de datos.
-- ✅ **Total de Localidades**: Muestra el número total de localidades únicas en el conjunto de datos.
-- ✅ **Unidades Vendidas Totales**: Muestra el número total de unidades vendidas en el conjunto de datos.
-- ✅ **Total General de Ventas**: Muestra el total general de ventas en el conjunto de datos.
-- ✅ **Margen Total**: Muestra el margen total calculado como la diferencia entre el total general de ventas y el costo total.
-- ✅ **Porcentaje de Margen Total**: Muestra el porcentaje de margen total calculado como el margen total dividido por el total general de ventas.
-- ✅ **Ventas por Año (2020-2024)**: Muestra las ventas totales por año desde 2020 hasta 2024.
+- ✅ **Total de Clientes**: Número total de clientes únicos.
+- ✅ **Total de Vendedores**: Número total de vendedores únicos.
+- ✅ **Total de Productos**: Número total de productos únicos.
+- ✅ **Total de Localidades**: Número total de localidades únicas.
+- ✅ **Unidades Vendidas Totales**: Número total de unidades vendidas.
+- ✅ **Total General de Ventas**: Total general de ventas.
+- ✅ **Margen Total**: Margen total calculado.
+- ✅ **Porcentaje de Margen Total**: Porcentaje de margen total.
+- ✅ **Ventas por Año (2020-2024)**: Ventas totales por año.
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **HTML5**: Estructura básica de la página web.
-- **CSS3**: Estilos y diseño de la interfaz de usuario.
-- **Bootstrap**: Framework CSS para diseño responsivo.
-- **JavaScript**: Lógica de programación y manipulación del DOM.
-- **Chart.js**: Librería para crear gráficos dinámicos e interactivos.
-- **jQuery**: Librería JavaScript para simplificar la manipulación del DOM y las solicitudes AJAX.
+- **HTML5**: Estructura básica de la página web
+- **CSS3**: Estilos y diseño de la interfaz de usuario
+- **Bootstrap**: Framework CSS para diseño responsivo
+- **JavaScript**: Lógica de programación y manipulación del DOM
+- **Chart.js**: Librería para crear gráficos dinámicos e interactivos
+- **jQuery**: Librería JavaScript para manipulación del DOM y solicitudes AJAX
 
 ## 📂 Estructura del Proyecto
 
-- **index.html**: Archivo principal que contiene la estructura HTML del dashboard.
-- **styles.css**: Archivo CSS que contiene los estilos y diseño de la interfaz de usuario.
-- **script.js**: Archivo JavaScript que contiene la lógica de programación y manipulación del DOM.
-- **data.json**: Archivo JSON que contiene los datos de ventas en formato de factura.
+- **index.html**: Archivo principal que contiene la estructura HTML del dashboard
+- **styles.css**: Archivo CSS que contiene los estilos y diseño
+- **script.js**: Archivo JavaScript que contiene la lógica de programación
+- **data.json**: Archivo JSON que contiene los datos de ventas
 
 ![Portada 1](Screenshot_169.png)
 
@@ -107,11 +105,11 @@ A través de este proyecto, los participantes no solo aprenderán tecnologías e
 
 🌐 Prueba el proyecto aquí:
 
-👉 Dashboard de Ventas: https://juancitopena.github.io/DASHBOARD_VENTAS_JS/
+👉 [Dashboard de Ventas](https://juancitopena.github.io/DASHBOARD_VENTAS_JS/)
 
 ## 🎓 Visión Educativa
 
-Este proyecto nace de la necesidad de proporcionar a estudiantes y profesionales una plataforma práctica y accesible para el aprendizaje de tecnologías modernas. Como herramienta educativa, el Dashboard de Ventas ofrece:
+Este proyecto nace de la necesidad de proporcionar una plataforma práctica y accesible para el aprendizaje de tecnologías modernas. Como herramienta educativa, el Dashboard de Ventas ofrece:
 
 - **Aprendizaje Práctico**: Implementación real de conceptos teóricos
 - **Desarrollo de Competencias**: Habilidades técnicas y analíticas
@@ -214,10 +212,6 @@ Este proyecto nace de la necesidad de proporcionar a estudiantes y profesionales
 
 Para clonar este repositorio, sigue estos pasos:
 
-1. Abre tu terminal o línea de comandos.
-2. Navega hasta el directorio donde deseas clonar el repositorio.
-3. Ejecuta el siguiente comando:
-
 ```bash
 # Clonar el repositorio
 git clone https://github.com/JUANCITOPENA/dashboard-de-ventas.git
@@ -227,16 +221,22 @@ cd dashboard-de-ventas
 
 # Abrir en el navegador
 open index.html
+```
 
-
-🤝 Contribución
+Contribución:
 
 ```bash
-Fork del repositorio
-Crear rama para feature (git checkout -b feature/NuevaCaracteristica)
-Commit de cambios (git commit -m 'Añadir nueva característica')
-Push a la rama (git push origin feature/NuevaCaracteristica)
-Crear Pull Request
+# Fork del repositorio
+# Crear rama para feature
+git checkout -b feature/NuevaCaracteristica
+
+# Commit de cambios
+git commit -m 'Añadir nueva característica'
+
+# Push a la rama
+git push origin feature/NuevaCaracteristica
+
+# Crear Pull Request
 ```
 
 ## 🗣️ Dar Feedback
