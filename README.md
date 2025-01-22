@@ -1,4 +1,4 @@
-# 📊 Dashboard de Ventas: Proyecto Educativo y Profesional
+ # 📊 Dashboard de Ventas: Proyecto Educativo y Profesional
 
 ## 🌟 Introducción
 
@@ -18,6 +18,112 @@ Este dashboard no es solo una herramienta de visualización; es un proyecto comp
 - Proporciona una base sólida para el aprendizaje y desarrollo profesional
 
 A través de este proyecto, los participantes no solo aprenderán tecnologías esenciales, sino que también desarrollarán habilidades críticas en análisis de datos, programación y diseño de interfaces. Este README te guiará a través de todas las características, recursos y oportunidades de aprendizaje que ofrece esta plataforma.
+
+## 📊 Gráficos y Visualizaciones
+
+### 🛒 Ventas por Producto
+Este gráfico muestra las ventas totales por producto, permitiendo a los usuarios identificar cuáles productos están generando más ingresos.
+
+### 📊 Unidades Vendidas por Vendedor
+Este gráfico presenta las unidades vendidas por cada vendedor, ayudando a evaluar el rendimiento individual de los vendedores.
+
+### 📍 Ventas por Localidad
+Este gráfico muestra las ventas totales por localidad, proporcionando una visión geográfica del rendimiento de las ventas.
+
+### 📈 Tendencias de Ventas (Últimos 6 meses)
+Este gráfico de línea muestra las tendencias de ventas durante los últimos seis meses, permitiendo a los usuarios identificar patrones y tendencias a lo largo del tiempo.
+
+### 👤 Ventas por Cliente
+Este gráfico muestra las ventas totales por cliente, ayudando a identificar a los clientes más valiosos.
+
+### 📆 Ventas por Año
+Este gráfico muestra las ventas totales por año, proporcionando una visión a largo plazo del rendimiento de las ventas.
+
+### 📊 Media de Ventas por Mes
+Este gráfico muestra la media de ventas por mes, ayudando a identificar meses con un rendimiento promedio alto o bajo.
+
+### 📊 Mediana de Ventas por Mes
+Este gráfico muestra la mediana de ventas por mes, proporcionando una medida central de las ventas mensuales.
+
+### 📊 Moda de Ventas por Mes
+Este gráfico muestra la moda de ventas por mes, identificando el valor de ventas más frecuente en cada mes.
+
+### 📊 Desviación Estándar de Ventas por Mes
+Este gráfico muestra la desviación estándar de ventas por mes, proporcionando una medida de la variabilidad de las ventas mensuales.
+
+### 🛒 Diagrama de Pareto por Producto
+Este gráfico de Pareto muestra la distribución de ventas por producto, ayudando a identificar los productos que contribuyen más a las ventas totales.
+
+### 👤 Diagrama de Pareto por Cliente
+Este gráfico de Pareto muestra la distribución de ventas por cliente, ayudando a identificar los clientes que contribuyen más a las ventas totales.
+
+### 📊 Diagrama de Pareto por Vendedor
+Este gráfico de Pareto muestra la distribución de ventas por vendedor, ayudando a identificar los vendedores que contribuyen más a las ventas totales.
+
+### 📍 Diagrama de Pareto por Localidad
+Este gráfico de Pareto muestra la distribución de ventas por localidad, ayudando a identificar las localidades que contribuyen más a las ventas totales.
+
+## 🔍 Filtros
+
+### Filtro por Factura
+Permite a los usuarios filtrar los datos por número de factura, ayudando a enfocarse en ventas específicas.
+
+### Filtro por Producto
+Permite a los usuarios filtrar los datos por producto, ayudando a analizar el rendimiento de productos específicos.
+
+### Filtro por Cliente
+Permite a los usuarios filtrar los datos por cliente, ayudando a analizar el comportamiento de compra de clientes específicos.
+
+### Filtro por Vendedor
+Permite a los usuarios filtrar los datos por vendedor, ayudando a evaluar el rendimiento de vendedores específicos.
+
+### Filtro por Localidad
+Permite a los usuarios filtrar los datos por localidad, ayudando a analizar el rendimiento de ventas en localidades específicas.
+
+## 📈 Medidas y KPIs
+
+### Total de Clientes
+Muestra el número total de clientes únicos en el conjunto de datos.
+
+### Total de Vendedores
+Muestra el número total de vendedores únicos en el conjunto de datos.
+
+### Total de Productos
+Muestra el número total de productos únicos en el conjunto de datos.
+
+### Total de Localidades
+Muestra el número total de localidades únicas en el conjunto de datos.
+
+### Unidades Vendidas Totales
+Muestra el número total de unidades vendidas en el conjunto de datos.
+
+### Total General de Ventas
+Muestra el total general de ventas en el conjunto de datos.
+
+### Margen Total
+Muestra el margen total calculado como la diferencia entre el total general de ventas y el costo total.
+
+### Porcentaje de Margen Total
+Muestra el porcentaje de margen total calculado como el margen total dividido por el total general de ventas.
+
+### Ventas por Año (2020-2024)
+Muestra las ventas totales por año desde 2020 hasta 2024.
+
+## 🛠️ Tecnologías Utilizadas
+
+- **HTML5**: Estructura básica de la página web.
+- **CSS3**: Estilos y diseño de la interfaz de usuario.
+- **Bootstrap**: Framework CSS para diseño responsivo.
+- **JavaScript**: Lógica de programación y manipulación del DOM.
+- **Chart.js**: Librería para crear gráficos dinámicos e interactivos.
+- **jQuery**: Librería JavaScript para simplificar la manipulación del DOM y las solicitudes AJAX.
+
+## 📂 Estructura del Proyecto
+
+- **index.html**: Archivo principal que contiene la estructura HTML del dashboard.
+- **styles.css**: Archivo CSS que contiene los estilos y diseño de la interfaz de usuario.
+- **script.js**: Archivo JavaScript que contiene la lógica de programación y manipulación del DOM.
+- **data.json**: Archivo JSON que contiene los datos de ventas en formato de factura
 
 ![Portada 1](Screenshot_169.png)
 
