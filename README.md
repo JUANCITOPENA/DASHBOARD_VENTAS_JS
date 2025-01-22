@@ -1,10 +1,10 @@
  # 📊 Dashboard de Ventas: Proyecto Educativo y Profesional
 
-## 🌟 Introducción
-
 👋 ¡Hola a todos!
 
 🎉 Bienvenidos a este repositorio en GitHub. En esta ocasión, les presento un proyecto que trata sobre el uso de tecnologías de programación web como HTML, CSS, Bootstrap, y JavaScript 🖥️, junto con la librería de gráficos dinámicos Chart.js 📊. Además, utiliza una base de datos en formato JSON con una estructura tipo factura que detalla información sobre clientes, vendedores, fechas, localidades, entre otros datos relevantes.
+
+📂 El Repositorio de la Base de Datos JSON lo puedes encontrar [aquí](https://raw.githubusercontent.com/JUANCITOPENA/RECURSOS-DE-BASE-DE-DATOS-Y-DATOS-CURSOS-SQL-SERVER-Y-ANALISIS-DE-DATOS/refs/heads/main/ventas_tecnologia.json) 🔗
 
 ✨ Este proyecto tiene como objetivo mostrar cómo, incluso con tecnologías web básicas, podemos crear un dashboard de ventas que incluye algunos resúmenes KPI, análisis dinámico, y gráficos interactivos que cambian según los filtros aplicados. También destaca la importancia del diseño UI/UX 🎨, así como el uso de contrastes adaptados a la marca y las necesidades del proyecto.
 
