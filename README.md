@@ -1,4 +1,4 @@
- # 📊 Dashboard de Ventas: Proyecto Educativo y Profesional
+# 📊 Dashboard de Ventas: Proyecto Educativo y Profesional
 
 ## Índice
 
@@ -27,14 +27,13 @@
 23. [Licencia y Uso Educativo](#licencia-y-uso-educativo)
 24. [Nota del Docente](#nota-del-docente)
 
-
-# introducción
+## 🌟 Introducción
 
 👋 ¡Hola a todos!
 
 🎉 Bienvenidos a este repositorio en GitHub. En esta ocasión, les presento un proyecto que trata sobre el uso de tecnologías de programación web como HTML, CSS, Bootstrap, y JavaScript 🖥️, junto con la librería de gráficos dinámicos Chart.js 📊. Además, utiliza una base de datos en formato JSON con una estructura tipo factura que detalla información sobre clientes, vendedores, fechas, localidades, entre otros datos relevantes.
 
-## 📂 El Repositorio de la Base de Datos JSON lo puedes encontrar [aquí](https://raw.githubusercontent.com/JUANCITOPENA/RECURSOS-DE-BASE-DE-DATOS-Y-DATOS-CURSOS-SQL-SERVER-Y-ANALISIS-DE-DATOS/refs/heads/main/ventas_tecnologia.json) 🔗
+📂 El Repositorio de la Base de Datos JSON lo puedes encontrar [aquí](https://raw.githubusercontent.com/JUANCITOPENA/RECURSOS-DE-BASE-DE-DATOS-Y-DATOS-CURSOS-SQL-SERVER-Y-ANALISIS-DE-DATOS/refs/heads/main/ventas_tecnologia.json) 🔗
 
 ✨ Este proyecto tiene como objetivo mostrar cómo, incluso con tecnologías web básicas, podemos crear un dashboard de ventas que incluye algunos resúmenes KPI, análisis dinámico, y gráficos interactivos que cambian según los filtros aplicados. También destaca la importancia del diseño UI/UX 🎨, así como el uso de contrastes adaptados a la marca y las necesidades del proyecto.
 
@@ -66,7 +65,6 @@ A través de este proyecto, los participantes no solo aprenderán tecnologías e
 - ✅ **📊 Diagrama de Pareto por Vendedor**: Este gráfico de Pareto muestra la distribución de ventas por vendedor, ayudando a identificar los vendedores que contribuyen más a las ventas totales.
 - ✅ **📍 Diagrama de Pareto por Localidad**: Este gráfico de Pareto muestra la distribución de ventas por localidad, ayudando a identificar las localidades que contribuyen más a las ventas totales.
 
-
 ## 🔍 Filtros
 
 - ✅ **Filtro por Factura**: Permite a los usuarios filtrar los datos por número de factura, ayudando a enfocarse en ventas específicas.
@@ -87,7 +85,6 @@ A través de este proyecto, los participantes no solo aprenderán tecnologías e
 - ✅ **Porcentaje de Margen Total**: Muestra el porcentaje de margen total calculado como el margen total dividido por el total general de ventas.
 - ✅ **Ventas por Año (2020-2024)**: Muestra las ventas totales por año desde 2020 hasta 2024.
 
-
 ## 🛠️ Tecnologías Utilizadas
 
 - **HTML5**: Estructura básica de la página web.
@@ -102,7 +99,7 @@ A través de este proyecto, los participantes no solo aprenderán tecnologías e
 - **index.html**: Archivo principal que contiene la estructura HTML del dashboard.
 - **styles.css**: Archivo CSS que contiene los estilos y diseño de la interfaz de usuario.
 - **script.js**: Archivo JavaScript que contiene la lógica de programación y manipulación del DOM.
-- **data.json**: Archivo JSON que contiene los datos de ventas en formato de factura
+- **data.json**: Archivo JSON que contiene los datos de ventas en formato de factura.
 
 ![Portada 1](Screenshot_169.png)
 
@@ -230,7 +227,7 @@ cd dashboard-de-ventas
 
 # Abrir en el navegador
 open index.html
-```
+
 
 🤝 Contribución
 
